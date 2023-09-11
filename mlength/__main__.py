@@ -21,14 +21,14 @@ from . import MediaFile, display_duration, set_debug
 @click.option(
     "--cache-dir",
     type=click.Path(path_type=Path, dir_okay=True),
-    default=Path("~/.cache/medialength"),
+    default=Path("~/.cache/mlength"),
     show_default=True,
     help="Cache directory",
 )
 @click.option(
     "--lib",
     type=click.Choice(["mediainfo", "ffprobe"]),
-    envvar="MEDIALENGTH_LIB",
+    envvar="MLENGTH_LIB",
     default="ffprobe",
     show_default=True,
     show_envvar=True,
