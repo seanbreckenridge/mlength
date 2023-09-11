@@ -52,6 +52,8 @@ Get the shortest media file in a directory, with the [list-movies](https://githu
 - `list-movies -X mlength -d path -o min` (find shortest movie in current directory)
 - `list-movies -X mlength -d all | sort -n` (sort results by length)
 
+If the media file is modified, the cache is recomputed.
+
 ### Tests
 
 ```bash
