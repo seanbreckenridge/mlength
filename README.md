@@ -12,6 +12,8 @@ To install with pip, run:
 pip install git+https://github.com/seanbreckenridge/mlength
 ```
 
+This requires either `ffprobe` (from `ffmpeg`) or [`mediainfo`](https://mediaarea.net/en/MediaInfo) to be installed.
+
 ## Usage
 
 ```
