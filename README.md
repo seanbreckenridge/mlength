@@ -48,7 +48,7 @@ $ mlength -d all sound.mpeg
 
 I use this in lots of small scripts:
 
-Get the shortest media file in a directory, with the [list-movies](https://github.com/seanbreckenridge/core/blob/main/shellscripts/list-movies) script:
+Get the shortest media file in a directory, with the [list-movies](https://github.com/seanbreckenridge/seanb-utils/blob/main/shellscripts/list-movies) script:
 
 - `list-music -X mlength -o sum` (find length of an album in current directory)
 - `list-movies -X mlength -d path -o min` (find shortest movie in current directory)
